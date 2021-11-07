@@ -5,7 +5,7 @@ In the first, we will first aggregate the data from a real department store  in 
 Then we will build several clustering models and analyse their performance on this real data.
  We will conclude, in what is the best model that can be used for department stores based on their characteristics.
 
-##Classification
+## Classification
 In the second part of the study, we will propose different classification models with the aim to predict the customer label at the end of the year based on quarterly data. 
 The models will be based on Support Vector Machines (SVM), K-Nearest Neighbours (KNN)  neural networks and XGBoost algorithms.
  The customer label is a number allocated to each customer based on their annual expenses. Or models will be trained and tested in our dataset. 
