@@ -3,7 +3,8 @@ Analyzing retail customers and predicting their behavior using data mining and M
 
 
 In this project we used different clustering algorithms like K-Means, K-Medeoids, DBSCAN and agglomerative clustering on the clients and compared their performance.
-In the second step of the project we use different ML algorithms like KNN, SVM and neural networks.
-In the last part , we utilize and optimize Prohet time series model to improve sales prediction accuracy.
-
-Last 2 steps and results  will be uploaded soon.
+We also deploy and compare some baseline models like KNN ,SVM and simple Neural Networks to classify the clients.
+In the last part , we utilize and optimize Prophet time series model to improve sales prediction accuracy.We than compare the base model to the optimized model based on MAPE metric.
+Clustering, NN and Prophet implementation and optimization are uploaded.
+SVM and XGBoost implementation and result graphs will be uploaded soon.
+For the dataset please contact me at led.lico@gmail.com.
