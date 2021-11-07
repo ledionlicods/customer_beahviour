@@ -19,5 +19,13 @@ In the third part of our study, we will analyse time series models and particula
 
 ## Status
 Clustering, NN and Prophet implementation and optimization are uploaded.
-SVM and XGBoost implementation and result graphs will be uploaded soon.
+SVM and XGBoost implementation will be uploaded soon.
+Results of tuning the neural network and optimizing the Prophet model are uploaded. Clustering results will be uploaded soon.
 For the dataset please contact me at led.lico@gmail.com.
+
+## Results
+
+### Neural Network
+The model with neural networks that we proposed is very promising and should be researched and experimented more in the future with different model architectures. Maximum accuracy was achieved for the architecture with a hidden layer of 20 neurons and with sigmoid activation function. This conclusion was reached after many experiments with different activation functions and by alternating the number of neurons in the intermediate layer. The accuracy achieved in the prediction can be considered very good if we refer to the number of data used for our study.
+### Prophet results
+In the third part of the project , models related to time series were analyzed and proposed, with a main focus on the Prophet algorithm. Some changes from the baseline model were proposed which gave us approximately 1.4% correction of the forecast error (MAE). We noticed that the change in the order of the Fourier series in the sales seasonalities gave us the greatest impact on the forecast. The proposed model gave very good results for forecasts up to 90 days (MAPE <25%). In the range of 90-140 days we had an increase in error which stabilized again after this range. This problem is thought to come from the change of promotional seasons in the years 2018/2019 but will be analyzed in more detail and will be addressed in future studies.
